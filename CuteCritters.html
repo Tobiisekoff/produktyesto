@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/CuteCritters.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="../js/CuteCritters.js" defer></script>
+    <title>Test-ProductDetails</title>
+</head>
+<body>
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <a href="#" class="logo">ESTOCZ</a>
+            <!--Navbar -->
+            <a href="main.html" class="Home-btn">Home</a>
+            <a href="main2.html" class="Jewellery-btn">Jewellery</a>
+            <a href="contact.html" class="Contact-btn">Contact</a>
+            <!--Cart-Icon-->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Váš Košík</h2>
+                <!--Content-->
+                <div class="cart-content"></div>
+                <!--Total-->
+                <div class="total">
+                    <div class="total-title">Celková Cena</div>
+                    <div class="total-price">0.-</div>
+                </div>
+                <!--Buy Button-->
+                <button type="button" class="btn-buy">Koupit Teď</button>
+                <!--Cart Close-->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="product-div">
+                <div class="product-div-left">
+                    <div class="img-container">
+                        <img src="../img/product1.jpeg" alt="watch image">
+                    </div>
+                    <div class="hover-container">
+                        <div>
+                            <img src="../img/product2.jpeg">
+                        </div>
+                        <div>
+                            <img src="../img/product3.jpeg">
+                        </div>
+                        <div>
+                            <img src="../img/product3.jpeg">
+                        </div>
+                        <div>
+                            <img src="../img/product2.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-div-right">
+                    <span class="product-name">Cute Critters</span>
+                    <span class="product-price">29,90.-</span>
+                    <div class="product-rating">
+                        <span><i class='bx bxs-star'></i></span>
+                        <span><i class='bx bxs-star'></i></span>
+                        <span><i class='bx bxs-star'></i></span>
+                        <span><i class='bx bxs-star'></i></span>
+                        <span><i class='bx bxs-star-half'></i></span>
+                        <span>5 ratings</span>
+                    </div>
+                    <p class="product-description">Cute Critters - Roztomilé samolepky se zvířátky, které dodají dětskému pokoji hravou a roztomilou atmosféru!</p>
+                    <div class="btn-groups">
+                        <div class="input-field">
+                            <label>Vyberte Možnost 1-12 :</label>
+                            <select name="Couriers" required aria-required style="height: 42px;">
+                                <option value="Placeholder" selected disabled aria-selected aria-disabled>1-12</option>
+                                <option value="1">Varianta 1</option>
+                                <option value="2">Varianta 2</option>
+                                <option value="3">Varianta 3</option>
+                                <option value="1">Varianta 4</option>
+                                <option value="2">Varianta 5</option>
+                                <option value="3">Varianta 6</option>
+                                <option value="2">Varianta 7</option>
+                                <option value="3">Varianta 8</option>
+                                <option value="1">Varianta 9</option>
+                                <option value="2">Varianta 10</option>
+                                <option value="3">Varianta 11</option>
+                                <option value="3">Varianta 12</option>
+                        <button type="button" class="add-cart-btn">
+                            <i class='bx bx-cart'>Přidat do košíku</i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
